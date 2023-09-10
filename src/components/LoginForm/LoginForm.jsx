@@ -44,7 +44,7 @@ export const LoginForm = () => {
         })
       );
     }
-  }, []); 
+  }, [dispatch]); 
 
   return (
     <Wrapper>
